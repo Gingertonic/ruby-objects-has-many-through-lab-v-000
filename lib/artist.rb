@@ -11,9 +11,9 @@ class Artist
     song.artist = self
   end
 
-  # def songs
-  #   @songs
-  # end
+  def songs
+    @songs
+  end
 
   def genres
     @songs.collect {|song| song.genre}
